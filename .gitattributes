@@ -1,0 +1,11 @@
+text=auto
+
+*.java     diff
+*.html     diff
+*.css      diff
+*.js       diff
+*.json     diff
+*.properties diff
+
+*.png      binary
+*.jpg      binary
