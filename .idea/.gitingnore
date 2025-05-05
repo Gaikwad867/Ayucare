@@ -1,0 +1,45 @@
+# Ignore Maven build files
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# IDE/Editor specific
+*.iml
+.idea/
+*.sw?
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.properties.local
+
+# Compiled class files
+*.class
+
+# Backup files
+*~
+*.bak
+
+# Node modules (if you're using frontend frameworks)
+node_modules/
+
+# Java specific
+*.jar
+*.war
+*.ear
+
+# Git ignore rules for JetBrains IDEs like IntelliJ
+out/
+
+# Spring Boot devtools restart files
+.spring-boot-devtools.properties
+
+# Others (optional)
+*.db
+*.sqlite
